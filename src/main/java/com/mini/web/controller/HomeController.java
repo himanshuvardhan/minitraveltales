@@ -19,6 +19,7 @@ public class HomeController {
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String index(ModelMap model) {
 		LOGGER.debug("indsex");
+		System.out.println("GIT Commit");
 		return "index";
 
 	}
